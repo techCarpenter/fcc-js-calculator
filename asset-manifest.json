@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/[your-user-name].github.io/[your-repo-name]/static/css/main.eb73a872.chunk.css",
+    "main.js": "/[your-user-name].github.io/[your-repo-name]/static/js/main.ccc29f0d.chunk.js",
+    "main.js.map": "/[your-user-name].github.io/[your-repo-name]/static/js/main.ccc29f0d.chunk.js.map",
+    "runtime~main.js": "/[your-user-name].github.io/[your-repo-name]/static/js/runtime~main.89f6dd97.js",
+    "runtime~main.js.map": "/[your-user-name].github.io/[your-repo-name]/static/js/runtime~main.89f6dd97.js.map",
+    "static/js/2.877ca57c.chunk.js": "/[your-user-name].github.io/[your-repo-name]/static/js/2.877ca57c.chunk.js",
+    "static/js/2.877ca57c.chunk.js.map": "/[your-user-name].github.io/[your-repo-name]/static/js/2.877ca57c.chunk.js.map",
+    "index.html": "/[your-user-name].github.io/[your-repo-name]/index.html",
+    "precache-manifest.9995e02f726e7b7bbd2723d9cbc8a65c.js": "/[your-user-name].github.io/[your-repo-name]/precache-manifest.9995e02f726e7b7bbd2723d9cbc8a65c.js",
+    "service-worker.js": "/[your-user-name].github.io/[your-repo-name]/service-worker.js",
+    "static/css/main.eb73a872.chunk.css.map": "/[your-user-name].github.io/[your-repo-name]/static/css/main.eb73a872.chunk.css.map"
+  }
+}
