@@ -1,6 +1,8 @@
 :root {
+  background-color: darkgray;
   --gap-size: 7px;
-  --grid-size: 100px;
+  --grid-size: 75px;
+  --font-sizing: 36px;
 }
 body {
   margin: 0;
@@ -13,40 +15,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+/* Elements */
 button {
+  background-color: aliceblue;
+  box-shadow: 3px 6px 3px rgba(0,0,0,0.15);
   font-family: inherit;
-  font-size: 28px;
+  font-size: var(--font-sizing);
   border-radius: 10px;
-  border: 1px solid lightgrey;
-}
-button:focus {
+  border: none;
   outline: none;
 }
 button:hover {
   background-color: darkgray;
 }
 button:active {
+  box-shadow: none;
   background-color: lightgreen;
 }
 
 /* Classes */
 .container {
+  box-shadow: 3px 10px 6px rgba(0,0,0,0.15);
   border-radius: 10px;
   width: fit-content;
-  padding: 10px;
-  background-color: orangered;
+  padding: 20px;
+  background-color: lightskyblue;
   display: grid;
   grid-template-columns: repeat(4, var(--grid-size));
-  grid-template-rows: repeat(5, var(--grid-size));
-  grid-template-areas: "clear clear divide multiply" "seven eight nine subtract"
+  grid-template-rows: 100px repeat(5, var(--grid-size));
+  grid-template-areas:
+    "display display display display" "clear clear divide multiply" "seven eight nine subtract"
     "four five six add" "one two three equal" "zero zero period equal";
   gap: var(--gap-size) var(--gap-size);
   justify-items: stretch;
   align-items: stretch;
-  margin: 50px;
+  margin: 20px auto;
 }
 
+/* IDs */
+#portfolio-link {
+  color: darkblue;
+  text-decoration: none;
+}
+#portfolio-link:hover {
+  text-decoration: underline;
+}
+#description {
+  text-align: center;
+  font-size: var(--font-sizing);
+}
+#display {
+  box-shadow: inset 3px 6px 10px rgba(256,256,256,0.7);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: var(--font-sizing);
+  grid-area: display;
+  border-radius: 10px;
+  background-color: black;
+}
+#upper-display {
+  height: 40%;
+  padding-right: 20px;
+  color: orangered;
+}
+#lower-display {
+  height: 50%;
+  padding-right: 20px;
+  color: snow;
+}
 #clear {
   grid-area: clear;
 }
