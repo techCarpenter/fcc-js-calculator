@@ -64,7 +64,7 @@ button:active {
   text-align: center;
   font-size: var(--font-sizing);
 }
-#display {
+#total-display {
   box-shadow: inset 3px 6px 10px rgba(256,256,256,0.7);
   padding: 0;
   margin: 0;
@@ -77,7 +77,8 @@ button:active {
   border-radius: 10px;
   background-color: black;
 }
-#upper-display {
+#display {
+  font-size: var(--font-sizing*0.5);
   height: 40%;
   padding-right: 20px;
   color: orangered;
