@@ -37,7 +37,7 @@ button:active {
 .container {
   box-shadow: 3px 10px 6px rgba(0,0,0,0.15);
   border-radius: 10px;
-  width: fit-content;
+  width: min-content;
   padding: 20px;
   background-color: lightskyblue;
   display: grid;
@@ -78,7 +78,7 @@ button:active {
   background-color: black;
 }
 #display {
-  font-size: var(--font-sizing*0.5);
+  font-size: 26px;
   height: 40%;
   padding-right: 20px;
   color: orangered;
